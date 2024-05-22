@@ -30,8 +30,17 @@ const staffData = [{
 }
 ];
 
-
+const page = document.querySelector("body");
 
 for (let key in staffData) {
+
+    const info = document.createElement("h3");
+
+    info.append(staffData[key]['nome'] + ' - ' + staffData[key]['ruolo'] + ' - ' + staffData[key]['foto']);
+
+    page.appendChild(info);
+
     console.log(staffData[key]);
+
 }
+
