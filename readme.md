@@ -11,3 +11,8 @@ BONUS 1:
 Trasformare la stringa foto in una immagine effettiva
 BONUS 2:
 Organizzare i singoli membri in card/schede
+
+
+- creo un array [] con dentro gli oggetti letterali {} per ogni membro
+- stampo l array su console per verificare che i dati vengano stampati correttamente
+- richiamo i miei elementi del dom insieme alle keys in modo da visualizzare le info dentro l array nel dom
