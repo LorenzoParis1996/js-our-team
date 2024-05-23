@@ -40,7 +40,7 @@ for (let key in staffData) {
 
     page.appendChild(info);
 
-    console.log(staffData[key]);
+    console.log(staffData[key]['nome'], staffData[key]['ruolo'], staffData[key]['foto']);
 
 }
 
